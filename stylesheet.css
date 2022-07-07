@@ -1,0 +1,159 @@
+* {              
+    /* Zerando o margin and padding de todos os elementos */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Usando flexbox para centralizar o conteúdo da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cor do fundo da página */
+    background-color: #f87b15;
+}
+
+.container {
+    width: 800px;
+    max-width: 800px;
+    max-height: 90vw;
+    height: auto;
+    /* margin: top, right, bottom and left */
+    margin: 30px 10px 20px 10px;
+}
+
+.img-profile-box {
+    /* Área onde fica a imagem do perfil, avatar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.img-profile {
+    width: 300px;
+    height: 300px;
+    margin: -60px;
+    /* Border radius 50% para deixar a imagem redonda */
+    border-radius: 50%;
+    margin-left: -20px;
+}
+
+.img-profile-box h1 {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+ .img-profile-box h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+ }
+
+ /* Esta classe corresponde à área do link */
+.link-box-1 {
+    width: 100%;
+    max-width: 790px;
+    height: 40px;
+    border-radius: 10px;
+    /* Este box-shadow é conhecido como neumorphism */
+    background: #f87b15;
+    box-shadow: 5px 5px 10px #b3590f,
+                -5px -5px 10px #ff9d1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+/* Formatação da fonte */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none; 
+    color: #b3590f;
+}
+
+.link-box-2 {
+    width: 100%;
+    max-width: 790px;
+    height: 40px;
+    border-radius: 10px;
+    /* Este box-shadow é conhecido como neumorphism */
+    background: #f87b15;
+    box-shadow: 5px 5px 10px #b3590f,
+                -5px -5px 10px #ff9d1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* Formatação da fonte */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none; 
+    color: #b3590f;
+}
+
+.link-box-3 {
+    width: 100%;
+    max-width: 790px;
+    height: 40px;
+    border-radius: 10px;
+    /* Este box-shadow é conhecido como neumorphism */
+    background: #f87b15;
+    box-shadow: 5px 5px 10px #b3590f,
+                -5px -5px 10px #ff9d1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* Formatação da fonte */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none; 
+    color: #b3590f;
+}
+
+/* Efeito p/ quando a pessoa usuária passar o mouse 
+em cima do link */
+.link-box:hover {
+    background-color: #b3590f;
+}
+
+/* Rodapé do projeto */
+
+
+footer{
+    background: #f87b15;
+    width: 100%;
+    height: 43px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+
+
+
